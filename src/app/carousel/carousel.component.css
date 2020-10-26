@@ -1,0 +1,105 @@
+div{
+    display: block;
+}
+.product-item .product-item-content {
+    
+    border-radius: 3px;
+    margin: 0.3rem;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .product-item .product-image {
+    width: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  img{
+      width: 100%;
+  }
+  .carousel{
+      position: relative;
+      top:20px;
+  }
+  ::ng-deep .p-reset{
+      position: absolute;
+      top: 80%;
+      left: 46%;
+  }
+  .buttomMenu{
+    width: 100%;
+    background: #13227a;
+    color: #ffffff;
+    height: 98px;
+    position: relative;
+    z-index: 9;
+    margin-top: -1px;
+  }
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.wrapper .content{
+    width: 1500px;
+    /* margin: 0 auto; */
+    position: relative;
+    left: 28%;
+    height: 100%;
+    
+}
+.wrapper .content ul{
+    width: 100%;
+    height: 100%;
+
+}
+.content ul li {
+    float: left;
+    width: 213px;
+    height: 100%;
+    text-align: center;
+    line-height: 98px;
+    position: relative;
+    /* background: url(../../assets/imgs/pb-wrapper-line.png) no-repeat center right; */
+}
+li{
+    width: 256px;
+}
+.quick-tool{
+    position: absolute;
+    top: 74%;
+    left: 30%;
+    background: #fff;
+    width: 344px;
+    height: 123px;
+}
+.searchInput{
+    position: relative;
+    left: 1.4rem;
+    top: 2rem;
+}
+.button{
+    display: block;
+    width: 304px;
+    padding: 0;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    height: 35px;
+    background: #13227a;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+}
+input{
+    width: 300px;
+}
+.overLi{
+    background: #fff;
+    color: #13227a;
+}

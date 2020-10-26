@@ -1,0 +1,34 @@
+.header{
+    width: 700px;
+    /* display: block;
+    margin: 0 auto; */
+    align-items: center;
+    position: relative;
+    margin: 30px;
+    left:420px;
+    bottom: 20px;
+
+}
+img{
+    height: 40px;
+    position: relative;
+    top: 5px;
+    margin: 0,auto;
+    float: left;
+    margin-right: 2rem;
+}
+ ::ng-deep .p-menubar {
+    float: right;
+    width: 600px;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fff;
+    background: #fff;
+    border: 0;
+}
+::ng-deep .p-menuitem {
+    width: 10rem;
+   
+}
