@@ -1,0 +1,137 @@
+.block-partner {
+    background-color: #13227a;
+    height: 400px;
+}
+.color-white {
+    color: #fff !important;
+}
+.block_title .main-title {
+    letter-spacing: .9px;
+    color: #13227a;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.block_title{
+    text-align: center;
+}
+.block_title .main-title {
+    letter-spacing: .9px;
+    color:#13227a;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+.container:before{
+    display: table;
+    content: " ";
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.blank60 {
+    height: 60px;
+}
+.blank80 {
+    height: 80px;
+}
+.block-service {
+    background-color: #fff;
+}
+.service-swiper {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+}
+.service-swiper .swiper-slide {
+    height: 300px;
+    width: 250px;
+    padding: 0px 16px;
+}
+.swiper-slide {
+    float: left;
+    box-sizing: content-box;
+}
+div, span {
+    word-break: normal;
+    text-align: left;
+}
+.service-swiper .service-box {
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    padding: 30px;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.service-box h3.title {
+    margin-bottom: 10px;
+    color: #13227a;
+    position: relative;
+    font-weight: bold;
+}
+.service-box h3.title a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.service-box .item:after {
+    content: "";
+    position: absolute;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 6px;
+    border-color: transparent transparent transparent #4a4a4a;
+    top: 50%;
+    -webkit-transform: translateX(0px) translateY(-50%);
+    -ms-transform: translateX(0px) translateY(-50%);
+    transform: translateX(0px) translateY(-50%);
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6, p, a, span, li, label {
+    color: #4a4a4a;
+    letter-spacing: .5px;
+    font-family: "Montserrat", "Microsoft YaHei", "PingFang SC","NotoSansSC", "Microsoft JhengHei", Arial;
+    font-weight: normal;
+}
+.service-box .item {
+    line-height: 2;
+    margin-right: 10px;
+    position: relative;
+}
+.service-box .img-box {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    max-width: 75px;
+}
+.service-box .img-box img {
+    width: 100%;
+    height: auto;
+}

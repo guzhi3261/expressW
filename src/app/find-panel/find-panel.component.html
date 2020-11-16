@@ -1,0 +1,16 @@
+
+<div class="title">
+    <div id="title1" (click) = "changeTab1()">价格查询</div>
+    <div id="title2" (click) = "changeTab2()">追踪单号</div>
+</div>
+<div id="priceInquiry" *ngIf="hActive? true:false">
+    <span class="p-input-icon-right searchInput">
+        <i class="pi pi-search"></i>
+        <input type="text" pInputText placeholder="您可以输入单号进行查询" />
+    </span>
+    <div style="height: 80px;"></div>
+    <button class="button">马上查单</button>
+</div>
+<div id="history" *ngIf="fActive">
+    <p>history is work</p>
+</div>

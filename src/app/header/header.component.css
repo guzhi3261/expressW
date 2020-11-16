@@ -1,12 +1,11 @@
 .header{
-    width: 700px;
+    width: 50%;
     /* display: block;
     margin: 0 auto; */
-    align-items: center;
+    /* align-items: center; */
     position: relative;
-    margin: 30px;
-    left:420px;
-    bottom: 20px;
+    margin: 0 auto;
+   
 
 }
 img{
@@ -19,7 +18,6 @@ img{
 }
  ::ng-deep .p-menubar {
     float: right;
-    width: 600px;
     -ms-flex-align: center;
     align-items: center;
     display: -ms-flexbox;
@@ -29,6 +27,6 @@ img{
     border: 0;
 }
 ::ng-deep .p-menuitem {
-    width: 10rem;
+    width: 15rem;
    
 }

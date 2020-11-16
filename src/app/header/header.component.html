@@ -1,10 +1,16 @@
-<div class="header">
-    <p-menubar [model]="menu">
-        <ng-template pTemplate="start">
-            <img src="assets/imgs/express.png" height="40" class="p-mr-2">
-        </ng-template>
-        <ng-template pTemplate="end">
-            <input type="text" pInputText placeholder="搜索">
-        </ng-template>
-    </p-menubar>    
+<div class="header" style="display: inline;">
+    <div style="position:  relative;">
+        <img src="assets/imgs/logo.png" height="40" class="p-mr-2" style="margin-left: 40px;">
+        <p style="color: #495057; display: inline; position: relative;top: 20px; font-size: 24px; font: bold;">挺好物流</p>
+    </div>
+    <div style="float: right;">
+        <p-menubar [model]="menu">
+            <!-- <ng-template pTemplate="start">
+                <img src="assets/imgs/express.png" height="40" class="p-mr-2">
+            </ng-template> -->
+            <ng-template pTemplate="end">
+                <input type="text" pInputText placeholder="搜索">
+            </ng-template>
+        </p-menubar>    
+    </div>
 </div>

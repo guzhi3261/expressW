@@ -1,0 +1,193 @@
+.main-layout {
+    margin-top: 90px;
+    position: relative;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+.md_header_wrap {
+    position: absolute;
+    height: 400px;
+    width: 100%;
+}
+div, span {
+    word-break: normal;
+    text-align: left;
+}
+.md_header_wrap .img-wrap {
+    position: relative;
+}
+.lg_header_wrap .img-wrap .img-wrap_img, .md_header_wrap .img-wrap .img-wrap_img, .sm_header_wrap .img-wrap .img-wrap_img {
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.md_header_wrap .img-wrap:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 1390px){
+.container {
+    width: 1370px;
+}
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container:before{
+    display: table;
+    content: " ";
+}
+.content-wrap .content-container.service {
+    position: relative;
+    margin-top: 370px;
+}
+.content-wrap .content-container {
+    position: relative;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 30px 40px 15px 40px;
+}
+.content-wrap .sub-title {
+    border-bottom: 1px solid #aaaaaa;
+    padding-bottom: 20px;
+    font-size: 0px;
+    position: relative;
+}
+.service-tag-1 {
+    display: inline-block;
+    background-color: #13227a;
+    border-radius: 100px 35px 35px 100px;
+    padding: 3px 10px 3px 22px;
+    margin-right: 10px;
+    position: relative;
+    color: #fff;
+}
+.service-tag-1 p:before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+h1, h2, h3, h4, h5, h6, p, a, span, li, label {
+    color: #4a4a4a;
+    letter-spacing: .5px;
+    font-family: "Montserrat", "Microsoft YaHei", "PingFang SC","NotoSansSC", "Microsoft JhengHei", Arial;
+    font-weight: normal;
+}
+.sub-table {
+    width: 100%;
+}
+colgroup {
+    display: table-column-group;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.sub-table .t-col-w-15 {
+    width: 15%;
+}
+table col[class*="col-"] {
+    position: static;
+    display: table-column;
+    float: none;
+}
+.sub-table .t-col-w-85 {
+    width: 85%;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.sub-table tr {
+    padding: 22px 0px;
+    border-bottom: 0.5px solid #b4b4b4;
+}
+.sub-table th[scope="row"] {
+    vertical-align: top;
+}
+.sub-table th {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+    letter-spacing: 1px;
+    padding-right: 32px;
+}
+.sub-table th, .sub-table td {
+    color: #333333;
+    padding: 22px 0px;
+}
+th {
+    text-align: left;
+}
+.sub-table th, .sub-table td {
+    color: #333333;
+    padding: 22px 0px;
+}
+.sub-table td {
+    font-size: 16px;
+    line-height: 2;
+}
+p {
+    line-height: 1.7;
+}
+p, span, a, li {
+    font-size: 16px;
+}
+b, strong {
+    font-weight: bold;
+}
+.main-btn.outbound {
+    margin-right: 20px;
+}
+.main-btn {
+    display: inline-block;
+    position: relative;
+    margin: 15px 0px;
+    min-width: 115px;
+    min-height: 45px;
+    outline: none;
+    border: 0;
+    border-radius: 100px;
+    background-color: #13227a;
+    cursor: pointer;
+    text-align: center;
+    line-height: 45px;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.main-btn.outbound a {
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.main-btn a {
+    display: block;
+    padding: 0px 25px;
+    color: #fff;
+}

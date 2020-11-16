@@ -1,0 +1,65 @@
+.title{
+
+}
+#title1{
+    width: 50%;
+    height: 50px;
+    color: #fff;
+    float: left;
+    display: inline;
+    font-size: 18px;
+    margin-bottom: 0px;
+    padding: 15px 37.5px;
+    vertical-align: bottom;
+    background: rgba(19, 34, 122, 0.8);
+}
+#title2{
+    width: 50%;
+    height: 50px;
+    color: #fff;
+    float: left;
+    display: inline;
+    font-size: 18px;
+    margin-bottom: 0px;
+    padding: 15px 37.5px;
+    vertical-align: bottom;
+    background: rgba(96, 125, 139, 0.8);
+}
+#priceInquiry{
+    height: 450px;
+    position: relative;
+    top: 50px;
+    background: rgba(19, 34, 122, 0.8);    
+    z-index: 10;
+    color: #fff;
+}
+#history{
+    position: relative;
+    /* display: none; */
+    top: 50px;
+    height: 450px;
+    z-index: 10;
+    color: #fff;
+    background: rgba(96, 125, 139, 0.8);
+}
+.button{
+    display: block;
+    width: 304px;
+    padding: 0;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    height: 35px;
+    background: #13227a;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+}
+input{
+position: relative;
+left: 20px;
+    width: 300px;
+}

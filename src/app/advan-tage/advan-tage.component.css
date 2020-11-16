@@ -1,0 +1,79 @@
+section {
+    display: block;
+}
+.block-advantage {
+    background-color: #fff;
+}
+.blank120 {
+    height: 120px;
+}
+.containerD {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.block_title {
+    margin: 0px 0px 15px 0px;
+}
+.block_title .main-title {
+    letter-spacing: .9px;
+    color: #13227a;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+.block_title .sub-title {
+    font-weight: bold;
+    letter-spacing: .9px;
+    color: #616578;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-4 {
+    width: 33.33333333%;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.col-sm-6 {
+    width: 50%;
+}
+.content-wrap .service-list-item {
+    position: relative;
+    margin-bottom: 40px;
+}
+.content-wrap .service-list-item {
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.content-wrap .service-list-item .img-box {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+#img1{
+    background-image: url(../../assets/imgs/4d5981458def4bb885a0f0e2bbbabe30.Png);
+}
+.ta-c {
+    text-align: center;
+}
+.list-item[_ngcontent-rxn-c55] {
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+@media (max-width: 1199px){
+.main-layout {
+    margin-top: 60px;
+}
+}

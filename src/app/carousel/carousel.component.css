@@ -24,6 +24,9 @@ div{
       top: 80%;
       left: 46%;
   }
+  ::ng-deep .p-menuitem{
+      font-size: 16px;
+  }
   .buttomMenu{
     width: 100%;
     background: #13227a;
@@ -69,11 +72,11 @@ li{
 }
 .quick-tool{
     position: absolute;
-    top: 74%;
-    left: 30%;
-    background: #fff;
+    top: 40%;
+    left: 70%;
     width: 344px;
-    height: 123px;
+    height: 500px;
+    
 }
 .searchInput{
     position: relative;
@@ -102,4 +105,21 @@ input{
 .overLi{
     background: #fff;
     color: #13227a;
+}
+::ng-deep .p-carousel .p-carousel-content .p-carousel-prev, .p-carousel .p-carousel-content .p-carousel-next{
+    width: 0.1rem;
+    margin: 0;
+}
+::ng-deep .p-carousel .p-carousel-content .p-carousel-next{
+    width: 0.1rem;
+    margin: 0;
+}
+::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+    background-color: rgba(0, 0, 0, 0)
+}
+::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+    background: rgba(0, 0, 0, 0);
+}
+::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button{
+    background: rgba(0, 0, 0, 0);
 }

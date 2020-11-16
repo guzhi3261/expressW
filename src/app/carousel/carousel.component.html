@@ -1,5 +1,6 @@
 <div class="carousel">
-    <p-carousel [value]="images" [numVisible]="1" [numScroll]="1" [circular]="true" [responsiveOptions]="responsiveOptions" [autoplayInterval]="3000">
+    <p-carousel [value]="images" [numVisible]="1" [numScroll]="1" [circular]="true"
+        [responsiveOptions]="responsiveOptions" [autoplayInterval]="3000">
         <ng-template pTemplate="header">
             <!-- <h5>Basic</h5> -->
             <app-header></app-header>
@@ -16,25 +17,25 @@
             </div> -->
         </ng-template>
         <ng-template pTemplate="footer">
-            <div class="buttomMenu wrapper">
+            <!-- <div class="buttomMenu wrapper">
                 <div class="content">
                     <ul>
-                        <li (click)="openTool()" (mouseover)="changeCss($event)" (mouseleave)="removeCss($event)"> <i class="pi pi-filter"></i> &nbsp;&nbsp;运单查询</li>
-                        <li (mouseover)="changeCss($event)" (mouseleave)="removeCss($event)"> <i class="pi pi-envelope"></i> &nbsp;&nbsp;我要寄件</li>
-                        <li (mouseover)="changeCss($event)" (mouseleave)="removeCss($event)"><i class="pi pi-dollar"></i> &nbsp;&nbsp;运费时效查询</li>
-                        <li (mouseover)="changeCss($event)" (mouseleave)="removeCss($event)"><i class="pi pi-map-marker"></i> &nbsp;&nbsp;收寄范围查询</li>
+                        <li (click)="openTool()" (mouseover)="changeCss($event)" (mouseleave)="removeCss($event)"> <i
+                                class="pi pi-filter"></i> &nbsp;&nbsp;运单查询</li>
+                        <li (mouseover)="changeCss($event)" (mouseleave)="removeCss($event)"> <i
+                                class="pi pi-envelope"></i> &nbsp;&nbsp;我要寄件</li>
+                        <li (mouseover)="changeCss($event)" (mouseleave)="removeCss($event)"><i
+                                class="pi pi-dollar"></i> &nbsp;&nbsp;运费时效查询</li>
+                        <li (mouseover)="changeCss($event)" (mouseleave)="removeCss($event)"><i
+                                class="pi pi-map-marker"></i> &nbsp;&nbsp;收寄范围查询</li>
                     </ul>
-                </div>                
-            </div>
+                </div>
+            </div> -->
         </ng-template>
     </p-carousel>
-    <div #tool class="quick-tool" style="display: none;">
-        <span class="p-input-icon-right searchInput" >
-            <i class="pi pi-search"></i>
-            <input type="text" pInputText placeholder="您可以输入单号进行查询"  />
-        </span>
-        <button class="button">马上查单</button>
-                    
-    </div>
-</div>
+    <div #tool class="quick-tool" style="display: inline;">
+        <app-find-panel></app-find-panel>
 
+    </div>
+    
+</div>

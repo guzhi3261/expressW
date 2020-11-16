@@ -8,9 +8,11 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 export class CarouselComponent implements OnInit {
   @ViewChild('tool') tool :ElementRef;
   images: Object[] = [
-    {'src':'../../assets/imgs/4.jpg'},
-    {'src':'../../assets/imgs/5.jpg'},
-    {'src':'../../assets/imgs/6.jpg'},
+   
+    // {'src':'../../assets/imgs/5.jpg'},
+    {'src':'../../assets/imgs/7.jpg'},
+    {'src':'../../assets/imgs/8.jpg'},
+    {'src':'../../assets/imgs/11.jpg'},
   ];
   // images: Object[] = [
   //   {'src':'https://www.sf-express.com/cn/sc/download/IMG20190905_170942.jpg'},
